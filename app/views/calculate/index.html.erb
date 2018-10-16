@@ -1,0 +1,36 @@
+<html>
+   <head></head>
+   <body>
+   		<form name="calculator">
+   			<table>
+	            <tr>
+	              <input type="text" name="display" id="display" disabled>
+	            </tr>
+	            <tr>
+	              <td><input type= "button" name= "one" value= "1" onclick = "calculator.display.value += '1'"></td>
+	              <td><input type="button" name="two" value="2" onclick = "calculator.display.value += '2'"></td>
+	              <td><input type= "button" name="three" value= "3" onclick = "calculator.display.value += '3'"></td>
+	              <td><input type= "button" name= "plus" id = "plus" value= "+" onclick = "adding()" ></td>
+	           </tr>
+	         	<tr>
+	              <td><input type= "button" name= "four" value= "4" onclick = "calculator.display.value += '4'"></td>
+	              <td><input type="button" name="five" value="5" onclick = "calculator.display.value += '5'"></td>
+	              <td><input type= "button" name="six" value= "6" onclick = "calculator.display.value += '6'"></td>
+	              <td><input type= "button" name= "minus" id = "minus" value= "-" onclick = "subtracting()"></td>
+	           </tr> 
+	           <tr>
+	              <td><input type= "button" name= "seven" value= "7" onclick = "calculator.display.value += '7'"></td>
+	              <td><input type="button" name="eight" value="8" onclick = "calculator.display.value += '8'"></td>
+	              <td><input type= "button" name="nine" value= "9" onclick = "calculator.display.value += '9'"></td>
+	              <td><input type= "button" name= "times" id = "times" value= "x" onclick = "multiplying()"></td>
+	           </tr>
+	           <tr>
+	              <td><input type= "button" name= "clear" value= "C" onclick = "clearing()"></td>
+	              <td><input type="button" name="zero" value="0" onclick = "calculator.display.value += '0'"></td>
+	              <td><input type= "button" name="equals" value= "=" onclick = "equaling()"></td>
+	              <td><input type= "button" name= "divide" id = "divide" value= "/" onclick = "dividing()"></td>
+	           </tr>
+	        </table>
+   		</form>
+   </body>
+</html>
