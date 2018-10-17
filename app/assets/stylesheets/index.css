@@ -1,0 +1,48 @@
+h1{
+	text-align: center;
+	font-family: cursive;
+	position: relative;
+	margin-top: 20px;
+}
+
+body {
+	background: #FFC0CB;
+}
+
+#main .container #main-row #main-column #main-box {
+	margin-top: 120px;
+	max-width: 280px;
+	margin-right: auto;
+    margin-left: auto;
+	height: 400px;
+	border: 1px solid #9C9C9C;
+	background-color: #D3D3D3;
+}
+
+#main .container #main-row #main-column #main-box #calculator #display{
+	height: 50px;
+	top: 20px;
+	width: 250px;
+	text-align: right;
+	position: relative;
+	font-size: 40px;
+	color: #000000;
+	border: 1px solid #9C9C9C;
+}
+
+#main .container #main-row #main-column #main-box #calculator #eq{
+	text-align: right;
+	font-size: 17px;
+}
+
+#main .container #main-row #main-column #main-box #calculator #buttons{
+	position: relative;
+	width: 100%
+}
+
+#main .container #main-row #main-column #main-box #calculator #buttons .btn{
+	width: 57px;
+	height: 55px;
+	font-size: 30px;
+	border: 1px solid #000000;
+}
