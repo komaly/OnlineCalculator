@@ -16,7 +16,9 @@
 					              <input type="text" name="display" id="display" disabled>
 					        </div>
 					        <pre id = "eq"><font class="form-group text-center" id = "equation">      </font></pre>
-					        <div class="form-group text-center" id = "buttons">
+
+					        <div class="form-group" id = "buttons">
+					        <input type= "button" class="btn text-left" id = "clr" value= "C" onclick = "clearing()" style = "background-color: #E65858;">
 					        <div class="form-group text-center">
 				            	<input type= "button" class="btn" id= "1" value="1" onclick = "calculator.display.value += '1'; displayCheck(this.id)" style = "background-color: #FFFF33">
 				              	<input type= "button" class="btn" id= "2" value="2" onclick = "calculator.display.value += '2' ; displayCheck(this.id)" style = "background-color: #FFFF33">
@@ -36,7 +38,7 @@
 					            <input type= "button" class="btn" id = "times" value= "*" onclick = "multiplying()" style = "background-color: lightblue">
 					        </div>
 					        <div class="form-group text-center">
-					            <input type= "button" class="btn" value= "C" onclick = "clearing()" style = "background-color: lightblue">
+					            <input type="button" class = "btn" id = "." value= "." onclick = "displayCheck(this.id)" style = "background-color: lightblue">
 					            <input type= "button" class="btn" id = "0" value="0" onclick = "calculator.display.value += '0'; displayCheck(this.id)" style = "background-color: #FFFF33">
 					            <input type= "button" class="btn" value= "=" onclick = "equaling()" style = "background-color: #90EE90">
 					            <input type= "button" class="btn" id = "divide" value= "/" onclick = "dividing()" style = "background-color: lightblue">
